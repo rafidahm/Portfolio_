@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(255, 231, 222);
+    padding-top: 50px;
+}
+
+.logo h3{
+    font-size: 40px;
+}
+.world{
+    color: coral;
+    font-weight: 800;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+  
+  }
+
+nav{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navigation{
+display: flex;
+list-style: none;
+gap: 50px;
+}
+
+nav .navigation a{
+    font-size: 20px;
+    color: rgb(72, 63, 63);
+    text-decoration: none;
+}
