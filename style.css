@@ -55,3 +55,27 @@ nav .navigation a{
     color: aliceblue;
 
 }
+
+
+#banner{
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: rgb(5, 4, 4);
+    margin-bottom: 20px;
+}
+
+
