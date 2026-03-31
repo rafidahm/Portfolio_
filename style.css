@@ -6,7 +6,10 @@
 
 
 header{
-    background-color: rgb(255, 231, 222);
+    background-color: rgb(255, 248, 245);
+    background: url(img_logo/developer.png) , url(img_logo/header_bg.png) ,rgb(255, 248, 245);
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 
@@ -53,7 +56,7 @@ nav .navigation a{
     font-size: 18px;
     font-weight: bold;
     color: aliceblue;
-
+    cursor: pointer;
 }
 
 
@@ -64,6 +67,10 @@ nav .navigation a{
     align-items: center;
 }
 
+#banner .banner-content{
+    max-width: 585px;
+}
+
 #banner .banner-content h2{
     font-size: 45px;
     font-weight: 500;
@@ -72,10 +79,19 @@ nav .navigation a{
 }
 
 #banner .banner-content h1{
-    font-size: 85px;
+    font-size: 75px;
     font-weight: bold;
     color: rgb(5, 4, 4);
+    margin-bottom: 10px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
     margin-bottom: 20px;
 }
 
-
+#banner .banner-image img{
+    max-width: 585px;
+}
