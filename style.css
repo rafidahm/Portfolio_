@@ -95,3 +95,52 @@ nav .navigation a{
 #banner .banner-image img{
     max-width: 585px;
 }
+
+#about {
+    padding-top: 130px;
+}
+
+/* .section-heading{
+    max-width: 827px;
+    text-align: center;
+} */
+#about .about-container{
+    width: 58%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(253, 244, 221);
+    padding: 130px 155px;
+}
+
+  /* .section-heading{
+    max-width: 827px;
+    text-align: center;
+}  */
+
+.section-heading h2{
+    font-size: 33px;
+    margin-bottom: 26px;
+}
+
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 26px;
+    line-height: 30px;
+    color: rgb(64, 56, 56);
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+} 
+
+.about-info .info-card p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(64, 56, 56);
+}
+
+.about-info .info-card h4{
+    font-size: 20px;
+}
