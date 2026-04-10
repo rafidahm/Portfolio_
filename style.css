@@ -8,7 +8,8 @@
 header{
     background-color: rgb(255, 248, 245);
     background: url(img_logo/developer.png) , url(img_logo/header_bg.png) ,rgb(255, 248, 245);
-    background-position: top left , bottom right;
+    /* background-position: top left , bottom right; */
+    background-position: 23px 38px , bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -224,4 +225,53 @@ margin-bottom: 29px;
 
 .resume-container hr{
     margin: 27px 0;
+}
+
+.btn-center{
+    text-align: center;
+    color: chocolate;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: rgb(255, 248, 239);
+padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 58%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container .social{
+        max-width: 562px;
+}
+
+.footer-container h2{
+    font-size: 35px;
+    color: rgb(9, 6, 6);
+    margin-bottom: 20px;
+
+
+}
+.footer-container .social p{
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-size:13px ;
+}
+
+.icon a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],.footer-container form textarea{
+    width: 450px;
+    padding: 16px 29px;
+     margin-bottom: 24px;
+     border: none;
+     border-radius: 5px;
+
 }
